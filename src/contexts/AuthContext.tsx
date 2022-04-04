@@ -1,4 +1,4 @@
-import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged  } from "firebase/auth";
 import { createContext, ReactNode, useEffect, useState } from "react";
 
 type User = {
